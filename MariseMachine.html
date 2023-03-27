@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor</title>
+    <script src="conversor.js"></script>
+    <link rel="stylesheet" href="conversor.css">
+    
+</head>
+
+<body>
+
+    <div class="baseBox">
+
+        <div class="fundoBox">
+
+            <div class="container">
+
+                <div class="box1">
+
+                    <h2>Música:</h2>
+                    <audio src="audio/SnapSave.io - Enter The Matrix (128 kbps).mp3" controls autoplay loop></audio>
+                </div>
+               
+
+                <div class="box2">
+                    <h2>Informe o valor de conversão: </h2>
+                <input id="ipt_valor" placeholder="Digite o valor de conversão" class="center">
+                <h2>converter de:</h2>
+                <div input class="center">
+                    <input type="radio" id="decimal_op1" name="op1">Decimal <input type="radio" id="binario_op1"
+                    name="op1">Binário <input type="radio" id="octal_op1" name="op1"> Octal <input type="radio"
+                    id="hexa_op1" name="op1"> Hexadecimal
+                </div>
+                
+                <h2>para:</h2>
+                <div class="center">
+                    <input type="radio" id="decimal_op2" name="op2">Decimal <input type="radio" id="binario_op2"
+                    name="op2">Binário <input type="radio" id="octal_op2" name="op2"> Octal <input type="radio"
+                    id="hexa_op2" name="op2"> Hexadecimal
+                </div>
+                <br><br>
+                <button onclick="converter()" class="center">Converter!</button>
+                <br><br>
+                </div>
+
+                <div class="box3">
+
+                    <h2>Histórico:</h2>
+                    <div id="div_mensagem" class="center"></div>
+                    <button style="display: none;" onclick="limpar()" id='excluir' class="botao">Limpar</button>
+                </div>
+
+                
+
+                
+
+                
+
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,92 @@
+body{
+    background-image: url(img/matrix.gif);
+}
+
+.fundoBox{
+    width: auto;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.container{
+    width: 10000px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.container .box3{
+    background-color: #d7d4cd;
+    border-radius: 20px;
+    width: 300px;
+    height: 400px;
+    border-width: 2px;
+    border-style: solid;
+    margin: 20px;
+}
+
+.container .box2{
+    background-color: #d7d4cd;
+    border-radius: 20px;
+    width: 500px;
+    height: 400px;
+    border-width: 2px;
+    border-style: solid ;
+    margin: 20px;
+}
+
+.container .box1{
+    background-color: #d7d4cd;
+    border-radius: 20px;
+    width: 300px;
+    height: 150px;
+    border-width: 2px;
+    border-style: solid;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+h2{
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.container .box2 h2{
+   text-decoration: underline;
+
+}
+.resultado{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: auto;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.botao{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin: auto;
+}
+
+
